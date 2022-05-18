@@ -13,8 +13,8 @@ space_invaders.keys.event_handler = (function space_invaders$keys$event_handler(
 if(cljs.core.truth_(ev.defaultPrevented)){
 return null;
 } else {
-var temp__5753__auto__ = (function (){var G__4573 = ev.code;
-switch (G__4573) {
+var temp__5753__auto__ = (function (){var G__2546 = ev.code;
+switch (G__2546) {
 case "KeyW":
 case "ArrowUp":
 return cljs.core.cst$kw$up;
